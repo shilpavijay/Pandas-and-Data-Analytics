@@ -14,24 +14,24 @@ stats = {'Day':[1,2,3,4,5,6],
 df = pd.DataFrame(stats)   
 
 ######## Printing the Data Frame ##########
-# print(df)
-# print(df.head())
-# print(df.tail(2))
+print(df)
+print(df.head())
+print(df.tail(2))
 
 
 ######## Setting a new Index to the Data Frame ##########
 
-# print(df.set_index('Day'))
-#df = df.set_index('Day')
+print(df.set_index('Day'))
+df = df.set_index('Day')
 # OR
-# df.set_index('Day', inplace=True)
-# print(df.head())
+df.set_index('Day', inplace=True)
+print(df.head())
 
 ######## Referencing columns of the Data Frame ##########
 
-# print(df['Bounce Rate'])
-# print(df.Visitors)
-# print(df[['Bounce Rate','Visitors']])
+print(df['Bounce Rate'])
+print(df.Visitors)
+print(df[['Bounce Rate','Visitors']])
 
 ######## Convert to a list ###########
 
