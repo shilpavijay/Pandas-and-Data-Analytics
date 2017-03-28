@@ -1,3 +1,6 @@
+Pandas and Analytics
+-----------------------
+
 This repository contains essentials of PANDAS and NUMPY for Basic Data Analysis. 
 Here is a list:
 
