@@ -41,7 +41,7 @@ def get_all_data():
 # HPI = pickle.load(pickle_in)
 # print(HPI)
 
-########## Pandas has its own pickle:
+########## Pandas has its own pickle:#########
 
 # HPI_data.to_pickle('pickle.pickle')
 # HPI_data2 = pd.read_pickle('pickle.pickle')
@@ -51,8 +51,8 @@ HPI_data = pd.read_pickle('states_HPI.pickle')
 
 ########## Changing column data ###############
 
-# HPI_data['AZ2'] = HPI_data['AZ'] * 2
-# print(HPI_data[['AZ','AZ2']])
+HPI_data['AZ2'] = HPI_data['AZ'] * 2
+print(HPI_data[['AZ','AZ2']])
 
 ########## plotting data using Matplotlib ####
 
